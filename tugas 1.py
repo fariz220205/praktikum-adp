@@ -8,6 +8,7 @@ print("parfum : Rp. 80.000")
 print("galon : Rp. 60.000")
 print("sendal : Rp. 50.000")
 print("celana : Rp. 90.000")
+print("----------****-----------")
 barang=(input("masukkan barang yang dibeli: "))
 if barang == "tempat makan":
     harga = 50000
@@ -62,9 +63,9 @@ if harga > 0:
             harga_diskon = total_harga_barang - diskon
             print("potongan harga yang didapat Rp.",diskon)
             print("harga yang harus dibayar adalah Rp.",harga_diskon)
-        elif total_barang > 1500000 :
-            diskon = total_barang * 0.15
-            harga_diskon = total_barang - diskon
+        elif total_harga_barang > 1500000 :
+            diskon = total_harga_barang * 0.15
+            harga_diskon = total_harga_barang - diskon
             print("potongan harga yang didapat Rp.",diskon)
             print("harga yang harus dibayar adalah Rp.",harga_diskon)
     else :
