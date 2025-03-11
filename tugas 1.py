@@ -66,4 +66,5 @@ if harga > 0:
             diskon = total_barang * 0.15
             harga_diskon = total_barang - diskon
             print("potongan harga yang didapat Rp.",diskon)
-            print("harga yang harus dibayar adalah Rp.",harga_diskon)
+else :
+    print("harga barang tidak ditemukan")
