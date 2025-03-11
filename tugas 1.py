@@ -47,19 +47,19 @@ else :
 if harga > 0:
     kuantitas = int(input("masukan banyak barang yang dibeli: "))
     if harga > 0 :
-        total_barang = harga*kuantitas
+        total_harga_barang = harga*kuantitas
         print("barang yang dibeli adalah " +nama) 
         print("sebanyak",kuantitas,"buah")
         print("dengan harga satuan Rp.",harga) 
-        print("dengan total harga Rp.",total_barang)
-        if total_barang <1000000 :
+        print("dengan total harga Rp.",total_harga_barang)
+        if total_harga_barang <1000000 :
             diskon = 0
-            harga_diskon = total_barang - diskon
+            harga_diskon = total_harga_barang - diskon
             print("potongan harga yang didapat Rp.",diskon)
             print("harga yang harus dibayar adalah Rp.",harga_diskon)
-        elif 1500000 >= total_barang >= 1000000 :
-            diskon = total_barang * 0.1
-            harga_diskon = total_barang - diskon
+        elif 1500000 >= total_harga_barang >= 1000000 :
+            diskon = total_harga_barang * 0.1
+            harga_diskon = total_harga_barang - diskon
             print("potongan harga yang didapat Rp.",diskon)
             print("harga yang harus dibayar adalah Rp.",harga_diskon)
         elif total_barang > 1500000 :
