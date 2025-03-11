@@ -69,3 +69,5 @@ if harga > 0:
             print("harga yang harus dibayar adalah Rp.",harga_diskon)
     else :
         print("harga barang tidak ditemukan")
+else :
+    print("harga barang tidak ditemukan")
