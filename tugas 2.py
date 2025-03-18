@@ -1,5 +1,6 @@
 # program untuk mengestimasi luas daerah di bawah kurva f(x) = x^2 + 2x menggunakan metode riemann
 
+print("estimasi luas daerah di bawah kurva f(x) = x^2 + 2x menggunakan metode riemann"
 n=int(input("masukkan nilai n : "))
 Xa=1
 Xb=3
