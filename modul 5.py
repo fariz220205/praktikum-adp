@@ -13,14 +13,13 @@ while True :
       print("4.keluar")
       opsi=int(input("masukan nomor yang diberikan : "))
       if opsi == 1 :
-          for i in range(opsi) :
-               nama=input("Masukkan nama pelanggan yang ingin di-upgrade: ")
-               harga=(input("masukkan total belanja dari pelanggan yang ingin di-upgrade: "))
-               nomor=str(len(no_pelanggan)+1)
-               no_pelanggan.append(nomor)
-               nama_pelanggan.append(nama)
-               total_belanja.append(harga)
-               print("data sudah di upgrade")
+          nama=input("Masukkan nama pelanggan yang ingin di-upgrade: ")
+          harga=(input("masukkan total belanja dari pelanggan yang ingin di-upgrade: "))
+          nomor=str(len(no_pelanggan)+1)
+          no_pelanggan.append(nomor)
+          nama_pelanggan.append(nama)
+          total_belanja.append(harga)
+          print("data sudah di upgrade")
      
       if opsi == 2 :
           pelanggan=int(input("masukan pelanggan yang mau dihapus :"))
@@ -36,10 +35,6 @@ while True :
           for i in range (len(no_pelanggan)):
                print(f"{no_pelanggan[i]:5}{nama_pelanggan[i]:15}{total_belanja[i]:15}")
 
-     
       if opsi == 4 :
-           print("pengisian data sudah selesai")
-           break
-      
-      if opsi != 4 and 3 and 2 and 1 :
-          continue
+          print("pengisian data sudah selesai")
+          break
