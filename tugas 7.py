@@ -1,4 +1,4 @@
-def hitung_tagihan(kwh, golongan):
+def biaya_tagihan(kwh, golongan):
     tarif_awal = [1500,2500,4000,5000]
     tarif_lebih = [2000,3000,5000,7000]
     batas = 100
@@ -47,4 +47,4 @@ print("   ")
 kwh = int(input("Masukkan pemakaian listrik anda (kWh): "))
 golongan = int(input("Masukkan golongan listrik anda (1-4): "))
 print("  ")
-print(f"Tagihan listrik anda: Rp {hitung_tagihan(kwh,golongan)}")
+print(f"Tagihan listrik anda: Rp {biaya_tagihan(kwh,golongan)}")
